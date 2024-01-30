@@ -46,7 +46,6 @@ void *Patient(void *number){
     pthread_mutex_unlock(&treatment);
 }
 
-
 void *Doctor(void *parameter){
     int c=0;
     while(!no_more){
@@ -66,7 +65,6 @@ void *Doctor(void *parameter){
         }
     }
 }
-
 
 int main(int args, char* argc[]){
 
